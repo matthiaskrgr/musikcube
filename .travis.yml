@@ -9,7 +9,7 @@ compiler:
 before_install:
 # install needed deps
   - sudo apt-get update -qq
-  - sudo apt-get install build-essential clang cmake libboost-thread1.61-dev libboost-system1.61-dev libboost-filesystem1.61-dev libboost-date-time1.61-dev libboost-atomic1.61-dev libboost-chrono1.61-dev libogg-dev libvorbis-dev libflac-dev libfaad-dev libncursesw5-dev libasound2-dev libpulse-dev pulseaudio libmicrohttpd-dev libmp3lame-dev libcurl4-openssl-dev
+  - sudo apt-get install build-essential clang cmake libboost-thread1.55-dev libboost-system1.55-dev libboost-filesystem1.55-dev libboost-date-time1.55-dev libboost-atomic1.55-dev libboost-chrono1.55-dev libogg-dev libvorbis-dev libflac-dev libfaad-dev libncursesw5-dev libasound2-dev libpulse-dev pulseaudio libmicrohttpd-dev libmp3lame-dev libcurl4-openssl-dev
 
 script:
   - mkdir "build"
